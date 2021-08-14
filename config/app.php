@@ -24,6 +24,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    
+
     'providers' => [
 
 
@@ -57,6 +59,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
     ],
 
